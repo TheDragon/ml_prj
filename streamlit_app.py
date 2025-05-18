@@ -82,6 +82,8 @@ with tab1:
         </div>
         """, unsafe_allow_html=True)
 
+        
+
 
         if predicted_tourists > 3_000_000:
             st.success("🚀 That's a booming season! High tourist inflow expected.")
